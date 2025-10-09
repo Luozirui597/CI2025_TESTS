@@ -1,4 +1,6 @@
-#!/usr/bin/env python3
+#突然想到的本科时的问题，现在再做一次
+#找零计算器，面额100,50,20,10,5,1,0.5
+#要求找零金额四舍五入到0.5
 from decimal import Decimal, ROUND_HALF_UP, InvalidOperation
 
 DENOMS = [Decimal('100'), Decimal('50'), Decimal('20'),
